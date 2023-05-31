@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Papers and Sissors</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Media-queries CSS -->
+    <link rel="stylesheet" href="media-queries.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-container">* Welcome To Rock Papers and Sissors *</div>
+        <div class="score-container">
+            <div class="score-box">
+                <div class="score-title grid-item">Player</div>
+                <div class="score-title grid-item">v/s</div>
+                <div class="score-title grid-item">Computer</div>
+                <div class="score grid-item"><p id="pl-score" value="0">0</p></div>
+                <div class="score grid-item">:</div>
+                <div class="score grid-item"><p id="comp-score" value="0">0</p></div>
+            </div>
+        </div>
+        <div class="show-container">
+            <div id="player-item"></div>
+            <div id="computer-item"></div>
+        </div>
+        <div class="choose-container">
+            <div class="options">
+               <button class="choose-item" id="r" value="r"><img src="assets/images/rock.png" alt="" id="rockImg"></button>
+               <button class="choose-item" id="p" value="p"><img src="assets/images/Paper.png" alt="" id="paperImg"></button>
+               <button class="choose-item" id="s" value="s"><img src="assets/images/sissor.png" alt="" id="sissorImg"></button>
+            </div>
+        </div>
+        <div class="win">
+            <p id="win"></p>
+        </div>
+    </div>
+</body>
+
+<!-- JS -->
+<script src="script/script.js"></script>
+
+</html>

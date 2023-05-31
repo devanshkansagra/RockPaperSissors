@@ -1,0 +1,56 @@
+@media (max-width: 530px) and (min-width: 400px) {
+    
+    .text-container {
+        font-size: 2rem;
+    }
+    .score-title {
+        font-size: 1.5rem;
+    }
+
+    .score {
+        font-size: 3rem;
+    }
+
+    .choose-item {
+        padding: 20px 20px;
+        margin: 0rem 1rem;
+    }
+
+    .choose-item img {
+        width: 3rem;
+    }
+
+    .show-container img {
+        height: 8rem;
+        width: 8rem;
+    }
+}
+
+@media (max-width: 399px) and (min-width: 300px) {
+
+    .text-container {
+        font-size: 1.5rem;
+        margin: 2rem 0.5rem;
+    }
+    .score-title {
+        font-size: 1.1rem;
+    }
+
+    .score {
+        font-size: 3rem;
+    }
+
+    .choose-item {
+        padding: 18px 18px;
+        margin: 0rem 1rem;
+    }
+
+    .choose-item img {
+        width: 2.2rem;
+    }
+
+    .show-container img {
+        height: 8rem;
+        width: 8rem;
+    }
+}

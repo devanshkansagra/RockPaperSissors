@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+* {
+    font-family: 'Inter';
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid white; */
+}
+
+body {
+    background-color: #28292f;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container {
+    /* border: 2px solid white; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+}
+
+.score-container, .show-container, .choose-container {
+    /* border: 2px solid white; */
+    width: 40%;
+    margin: auto;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.score-container {
+    margin-top: 3rem;
+}
+
+.score-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.score-table {
+    height: 2rem;
+    width: 4rem;
+}
+
+.grid-item {
+    padding: 1rem 2rem;
+    /* border: 1px solid white; */
+}
+
+.score-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.score {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choose-item {
+    padding: 50px 50px;
+    border-radius: 50rem;
+    background: none;
+    border: 5px solid white;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.03s;
+
+}
+
+.choose-item:hover {
+    background-color: rgb(17, 90, 246);
+    cursor: pointer;
+}
+
+.choose-item img {
+    width: 4rem;
+}
+
+.show-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.show-container img {
+    width: 10rem;
+    height: 10rem;
+    margin: 0rem 2rem;
+}
+
+.win {
+    margin-top: 2rem;
+}
